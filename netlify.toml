@@ -1,8 +1,9 @@
 [build]
-  command = "yarn build"
-  publish = ".next"
+  command = "npm run export"
+  publish = "out"
 
 [build.environment]
-  JAMIFY_NEXT_ISR = "false"
-  JAMIFY_NEXT_FEATURE_IMAGES = "false"
-  JAMIFY_NEXT_INLINE_IMAGES = "false"
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
+JAMIFY_NEXT_ISR = "false"
+JAMIFY_NEXT_FEATURE_IMAGES = "false"
+JAMIFY_NEXT_INLINE_IMAGES = "false"

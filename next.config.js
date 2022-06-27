@@ -14,6 +14,8 @@ const defaultOptions = withBundleAnalyzer({
       'static.gotsby.org',
       'static.ghost.org',
       'gatsby.ghost.io',
+      'www.strefapsiaka.pl',
+      'ahlbpbmskr.cloudimg.io',
       'ghost.org',
       'repository-images.githubusercontent.com',
       'www.gravatar.com',

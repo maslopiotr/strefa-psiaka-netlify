@@ -11,8 +11,8 @@ imageLoader.loader = ({ src, width, quality }) => {
    * Customize your image loader here
    * https://nextjs.org/docs/api-reference/next/image#loader
    *
-   * Example:  return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+   * Example:  return `https://https://ahlbpbmskr.cloudimg.io/${src}?w=${width}&q=${quality || 75}`
    */
 
-  return src
+  return `https://ahlbpbmskr.cloudimg.io/${src}?w=${width}&q=${quality || 65}`
 }
